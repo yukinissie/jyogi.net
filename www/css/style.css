@@ -32,3 +32,7 @@ body {
   padding: 0;
   display: block;
 }
+
+.spacer {
+  height:70px
+}
