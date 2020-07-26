@@ -1,42 +1,4 @@
 body {
   margin: 0;
-  background-color: #1F67B3;
-}
-#content {
-  color: white;
-  padding: 10px;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 700px;
-}
-#face {
-  font-size: 80px;
-}
-.buttons {
-  float: right;
-}
-a {
-  text-decoration: none;
-  color: white;
-  border: solid 2px white;
-  padding: 3px 10px;
-  margin-left: 10px;
-}
-a:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-#guest {
-  margin-bottom: 50px;
-}
-.space {
-  height: 30px;
-}
-
-/* スマホ用  */
-@media screen and (max-width: 480px) {
-  #content {
-    width: 300px;
-  }
+  background-color: #FFFDF0;
 }
