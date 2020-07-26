@@ -21,20 +21,21 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <div class="navbar-nav mr-auto">
-            <a class="nav-item nav-link active" href="#">About</a>
-            <a class="nav-item nav-link active" href="#">Activity</a>
-            <a class="nav-item nav-link active" href="#">Schedule</a>
-            <a class="nav-item nav-link active" href="#">Info</a>
+            <a class="nav-item nav-link active" href="#about">About</a>
+            <a class="nav-item nav-link active" href="#activity">Activity</a>
+            <a class="nav-item nav-link active" href="#schedule">Schedule</a>
+            <a class="nav-item nav-link active" href="#info">Info</a>
           </div>
         </div>
       </nav>
     </header>
+    <a name="about"></a>
     <div class="spacer" style="height:70px"></div>
     <section class="about">
       <div class="container">
         <div class="card text-center">
           <div class="card-header">
-            Hello, world!
+            About
           </div>
           <div class="card-body">
             <h5 class="card-title">情報技術研究部（じょぎ）へようこそ</h5>
@@ -70,35 +71,283 @@
               同じ目的を持った仲間と知識や技術を共有し、日々の努力を積み上げています。<br>
               部員に求められているものは「何かを作りたい」という心だけです！
             </p>
-            <a href="#" class="btn btn-primary">もっと詳しく</a>
+            <a href="#activity" class="btn btn-primary">もっと詳しく</a>
           </div>
-          <!-- <div class="card-footer text-muted">
-            2 days ago
-          </div> -->
         </div>
       </div>
     </section>
+    <a name="activity"></a>
+    <div class="spacer" style="height:70px"></div>
     <section class="activity">
       <div class="container">
-
+        <div class="card text-center">
+          <div class="card-header">
+            Activity
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">活動内容</h5>
+            <p class="card-text">
+              じょぎには様々な情報技術を使って創作活動を行なっている部員がいます。<br>
+              プログラミングや、3Dモデリング、サーバ構築など、下記に紹介するものはその一例です。<br>
+              自分で新たな分野（動画制作、OS自作、自作PC語り）を開拓してもOKです。
+            </p>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="card" style="width: 100%;">
+                  <div class="card-body">
+                    <h5 class="card-title">ゲーム制作</h5>
+                    <p class="card-text">
+                      UnityやUnreal engineなどのゲームエンジンを用いた開発や、C++ × DXlib での制作などを行なっています。
+                      <br><br>
+                    </p>
+                  </div>
+                  <img src="img/game.png" alt="programmer" width="100%" height="180">
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card" style="width: 100%;">
+                  <div class="card-body">
+                    <h5 class="card-title">3Dモデリング</h5>
+                    <p class="card-text">
+                      3Dモデルやアニメーションを制作しています。主にMayaやBlenderなどを使用しています。ゲーム制作の素材の一部として作ることもあります。
+                    </p>
+                  </div>
+                  <img src="img/programmer.jpg" alt="programmer" width="100%" height="180">
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card" style="width: 100%;">
+                  <div class="card-body">
+                    <h5 class="card-title">サーバ構築</h5>
+                    <p class="card-text">
+                      主にWebサービスの基盤となる部分の構築を行っています。近年はクラウドサービスを用いたインフラ構築にも挑戦しています。
+                    </p>
+                  </div>
+                  <img src="img/programmer.jpg" alt="programmer" width="100%" height="180">
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card" style="width: 100%;">
+                  <div class="card-body">
+                    <h5 class="card-title">Webアプリ制作</h5>
+                    <p class="card-text">
+                      Web技術を利用したアプリケーションの制作を行なっています。モダンな技術を求めて、様々な先端技術に触れています。
+                    </p>
+                  </div>
+                  <img src="img/programmer.jpg" alt="programmer" width="100%" height="180">
+                </div>
+              </div>
+              
+            </div>
+            <br>
+            <p class="card-text">
+              1つの分野に限定する必要はありません。<br>
+              いろいろなものに挑戦して、自分が楽しいと思うもの、<br>
+              得意だと思うものを見つけて技術力向上を目指しましょう。
+            </p>
+          </div>
+        </div>
       </div>
     </section>
+    <a name="schedule"></a>
+    <div class="spacer" style="height:70px"></div>
     <section class="schedule">
       <div class="container">
-
+        <div class="card text-center">
+          <div class="card-header">
+            Schedule
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">年間スケジュール</h5>
+            <p class="card-text">
+              じょぎでは1年間を徹して様々な行事があります。<br>
+              積極的に参加して他の部員と交流し技術力向上の効果を得ましょう。
+            </p>
+            <div class="card mb-12" style="max-width: 100%;">
+              <div class="row no-gutters">
+                <div class="col-md-2">
+                  <div class="month">
+                    4月
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body">
+                    <p class="card-text schedule">
+                      ・プログラミング講座、３D講座、Unity講座、サーバ講座<br>
+                        初心者向けに基礎的な内容の講座を行います。<br>
+                        ※2020年度は7~8月にかけて開講予定。<br>
+                      ・新入生歓迎会<br>
+                        歓迎会を通して先輩後輩の交流を深めます。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-12" style="max-width: 100%;">
+              <div class="row no-gutters">
+                <div class="col-md-2">
+                  <div class="month">
+                    5月
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body">
+                    <p class="card-text schedule">
+                      ・学文祭<br>
+                        学校内で行われる作品発表の機会です。<br>
+                        ※2020年度は中止。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-12" style="max-width: 100%;">
+              <div class="row no-gutters">
+                <div class="col-md-2">
+                  <div class="month">
+                    6月
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body">
+                    <p class="card-text schedule">
+                      ・チーム制作<br>
+                        1年製同士でチームを組んで作品を作ります。<br>
+                        ※2020年度は講座後から立花祭までの期間を予定。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-12" style="max-width: 100%;">
+              <div class="row no-gutters">
+                <div class="col-md-2">
+                  <div class="month">
+                    8月
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body">
+                    <p class="card-text schedule">
+                      ・合宿<br>
+                        校外にて講師の先生をお呼びして技術を高めます。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-12" style="max-width: 100%;">
+              <div class="row no-gutters">
+                <div class="col-md-2">
+                  <div class="month">
+                    9月
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body">
+                    <p class="card-text schedule">
+                      ・じょぎ旅行<br>
+                        毎年2泊3日の旅行に行きます。<br>
+                      ・泊まり込み<br>
+                        部室に泊まり込みで作業を行います。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-12" style="max-width: 100%;">
+              <div class="row no-gutters">
+                <div class="col-md-2">
+                  <div class="month">
+                    11月
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body">
+                    <p class="card-text schedule">
+                      ・立花祭<br>
+                        一般の人に作品を見てもらう機会であり、チーム制作の発表の場でもあります。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-12" style="max-width: 100%;">
+              <div class="row no-gutters">
+                <div class="col-md-2">
+                  <div class="month">
+                    2月
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body">
+                    <p class="card-text schedule">
+                      ・追い出し会<br>
+                        3年生の先輩を感謝の気持ちを込めて追い出します。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-12" style="max-width: 100%;">
+              <div class="row no-gutters">
+                <div class="col-md-2">
+                  <div class="month">
+                    3月
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body">
+                    <p class="card-text schedule">
+                      ・ZENZAI会<br>
+                        4年生が下級生を激励する会です。<br>
+                        （ぜんざいが振る舞われるわけではありません。）
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
+    <a name="info"></a>
+    <div class="spacer" style="height:70px"></div>
     <section class="info">
       <div class="container">
-
+        <div class="card text-center">
+          <div class="card-header">
+            Info
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">基本情報</h5>
+            <p class="card-text info">
+              部活動名：福岡工業大学 情報技術研究部<br>
+              活動時間：平日 16:30 ~ 20:00<br>
+              活動場所：サークル棟3階部室（駅側階段上ってすぐ）<br>
+              部会時間：毎週 火・金 16:30 ~<br>
+              部会場所：B棟3階 B34<br>
+              <br>
+              <span class="text-danger">※上記の内容は例年の内容となります。今年度はCOVID-19の影響で内容を変更して活動しています。</span><br>
+              質問やお問い合わせは公式Twitter <a href="https://twitter.com/jyogi_pr" target="_blank" rel=”noopener">@jyogi_pr</a> まで！<br>
+          </div>
+        </div>
       </div>
     </section>
-    <footer>
-      <div class="container">
-
-      </div>
+    <footer class="footer mt-auto">
+      <nav class="navbar  navbar-expand-xl navbar-dark">
+        <a class="navbar-brand" href="#">情報技術研究部</a>
+        <div class="navbar-collapse">
+          <div class="navbar-nav mr-auto">
+            <a class="nav-item nav-link active" href="#about">About</a>
+            <a class="nav-item nav-link active" href="#activity">Activity</a>
+            <a class="nav-item nav-link active" href="#schedule">Schedule</a>
+            <a class="nav-item nav-link active" href="#info">Info</a>
+          </div>
+        </div>
+      </nav>
+      <span class="copy_right">Copy Right ©︎ 2020 jyogi.net ALL Right Reserved.</span>
     </footer>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

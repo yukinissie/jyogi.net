@@ -6,3 +6,29 @@ body {
 .navbar {
   background-color: #0020FF;
 }
+
+.schedule {
+  font-size: small;
+  text-align: left;
+}
+
+.month {
+  background-color: #0020FF;
+  color: white;
+  font-size: 200%;
+}
+
+.info {
+  text-align: left;
+  font-size: large;
+  margin-bottom: 20px;
+}
+
+.copy_right {
+  text-align: center;
+  color: white;
+  background-color: #0020FF;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
