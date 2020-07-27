@@ -3,27 +3,68 @@ body {
   background-color: #FFFDF0;
 }
 
+/* header */
 .navbar {
   background-color: #0020FF;
 }
 
+/* ハンバーガーメニュー　ここから */
+.navbar-dark .navbar-toggler {
+  border-color: rgba(0,0,0,0);
+  border: none;
+  padding: 0px;
+  width: 30px;
+  height: 32px;
+  box-sizing: border-box;
+  position: relative;
+}
+.navbar-dark .navbar-toggler-icon {
+  background-image:none; /* この行で背景画像を無効化 */
+  background-color: #fff;
+  width: 25px;
+  height: 2px;
+  display: block;
+  position: absolute;
+  transition: ease .5s;
+}
+/* 3本のバーそれぞれの座標を設定 */
+.navbar-toggler-icon:nth-of-type(1) {top:7px;}
+.navbar-toggler-icon:nth-of-type(2) {top:16px;}
+.navbar-toggler-icon:nth-of-type(3) {top:25px;}
+/* メニューが開いている時の　3本のバーそれぞれの座標および角度を設定 */
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:nth-of-type(1) {
+top:13px;
+transform: rotate(45deg);
+}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:nth-of-type(2) {
+opacity: 0;
+}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:nth-of-type(3) {
+top:13px;
+transform: rotate(-45deg);
+}
+/* ハンバーガーメニューのボタンは、以下を参考 */
+/* https://herrkf.com/20190607/3727 */
+
+/* shedule */
 .schedule {
   font-size: small;
   text-align: left;
 }
-
 .month {
   background-color: #0020FF;
   color: white;
   font-size: 200%;
 }
 
+/* info */
 .info {
   text-align: left;
   font-size: large;
   margin-bottom: 20px;
 }
 
+/* footer */
 .copy_right {
   text-align: center;
   color: white;
@@ -32,7 +73,6 @@ body {
   padding: 0;
   display: block;
 }
-
 .spacer {
   height:70px
 }
