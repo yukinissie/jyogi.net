@@ -47,7 +47,7 @@ transform: rotate(-45deg);
 /* https://herrkf.com/20190607/3727 */
 
 /* shedule */
-.schedule {
+.schedule > div > div > div > div > div > div > div > p{
   font-size: small;
   text-align: left;
 }
