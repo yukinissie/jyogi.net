@@ -8,7 +8,7 @@ body {
   background-color: #0020FF;
 }
 
-/* ハンバーガーメニュー　ここから */
+/* ハンバーガーメニュー */
 .navbar-dark .navbar-toggler {
   border-color: rgba(0,0,0,0);
   border: none;
@@ -31,7 +31,7 @@ body {
 .navbar-toggler-icon:nth-of-type(1) {top:7px;}
 .navbar-toggler-icon:nth-of-type(2) {top:16px;}
 .navbar-toggler-icon:nth-of-type(3) {top:25px;}
-/* メニューが開いている時の　3本のバーそれぞれの座標および角度を設定 */
+/* メニューが開いている時の3本のバーそれぞれの座標および角度を設定 */
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:nth-of-type(1) {
 top:13px;
 transform: rotate(45deg);
@@ -43,18 +43,18 @@ opacity: 0;
 top:13px;
 transform: rotate(-45deg);
 }
-/* ハンバーガーメニューのボタンは、以下を参考 */
+/* ハンバーガーメニューCSSは、以下を参考 */
 /* https://herrkf.com/20190607/3727 */
 
 /* shedule */
-.schedule > div > div > div > div > div > div > div > p{
-  font-size: small;
-  text-align: left;
-}
 .month {
   background-color: #0020FF;
   color: white;
   font-size: 200%;
+}
+.schedule_details p {
+  font-size: small;
+  text-align: left;
 }
 
 /* info */
