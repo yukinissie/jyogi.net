@@ -50,29 +50,16 @@ transform: rotate(-45deg);
 }
 
 /* shedule */
-.schedule_details .col-md-2 {
-  background-color: #0020FF;
-  display: block;
-  position: relative;
-}
 .month {
-  /* background-color: #0020FF; */
+  background-color: #0020FF;
   color: white;
   font-size: 200%;
   width: 100%;
-  display: inline-block;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
 }
 .schedule_details p {
   font-size: small;
   text-align: left;
   left:0;
-}
-/* モバイル表示用 */
-.schedule_details .spacer {
-  height: 50px;
 }
 
 /* info */
