@@ -69,19 +69,6 @@ transform: rotate(-45deg);
   margin-bottom: 20px;
 }
 
-/* contact */
-.btn {
-  font-weight: bold;
-}
-.line {
-  background-color: #21BA00;
-  border-color: #21BA00;
-}
-.twitter {
-  background-color:#1EA2F1;
-  border-color: #1EA2F1;
-}
-
 /* footer */
 .copy_right {
   text-align: center;
