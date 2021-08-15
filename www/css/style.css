@@ -30,17 +30,20 @@ body {
 .navbar-toggler-icon:nth-of-type(1) {top:7px;}
 .navbar-toggler-icon:nth-of-type(2) {top:16px;}
 .navbar-toggler-icon:nth-of-type(3) {top:25px;}
+.navbar-toggler {
+  outline: none !important;
+}
 /* メニューが開いている時の3本のバーそれぞれの座標および角度を設定 */
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:nth-of-type(1) {
-top:13px;
-transform: rotate(45deg);
+  top:13px;
+  transform: rotate(45deg);
 }
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:nth-of-type(2) {
-opacity: 0;
+  opacity: 0;
 }
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:nth-of-type(3) {
-top:13px;
-transform: rotate(-45deg);
+  top:13px;
+  transform: rotate(-45deg);
 }
 /* ハンバーガーメニューCSSは、以下を参考 */
 /* https://herrkf.com/20190607/3727 */
